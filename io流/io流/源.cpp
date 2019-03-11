@@ -3,10 +3,10 @@
 #include<fstream>
 #include<stdlib.h>
 using namespace std;
-#include "../../../mycase/cases.h"
+#include "./../../mycase/cases.h"
 using namespace My_Code;
 using namespace IO;
-/*Èç¹û¶¨ÒåÔÚcases.hÖĞ³ö´í£¬Ê¶±ğ²»ÁËMy_String ÀàĞÍ*/
+/*å¦‚æœå®šä¹‰åœ¨cases.hä¸­å‡ºé”™ï¼Œè¯†åˆ«ä¸äº†My_String ç±»å‹*/
 template<class T> T& operator<<(T& io, const My_String& str)
 {
 	sendstr(io, str.c_str(), str.size());
@@ -22,13 +22,13 @@ void test1()
 	static My_String str("this is a test!");
 	OStream Out;
 	Out << str;
-	/*²âÊÔiostreamÊä³öMy_String*/
+	/*æµ‹è¯•iostreamè¾“å‡ºMy_String*/
 	cout << str << endl;;
-	/*²âÊÔÊä³öµ½ÎÄ¼ş*/
+	/*æµ‹è¯•è¾“å‡ºåˆ°æ–‡ä»¶*/
 	FileOStream Fout("1.txt","w+");
 	Fout << str;
 	Fout.close();
-	/*²âÊÔ´òÓ¡×Ô¶¨ÒåÀàĞÍMInt*/
+	/*æµ‹è¯•æ‰“å°è‡ªå®šä¹‰ç±»å‹MInt*/
 	MInt m(0);
 	cout << m << endl;
 	cout << "enter a integer :" << endl;
