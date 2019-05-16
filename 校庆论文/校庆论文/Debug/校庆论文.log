@@ -1,0 +1,38 @@
+﻿  clocktree.cpp
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(193): warning C4804: “~”: 在操作中使用类型“bool”不安全
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(259): warning C4804: “~”: 在操作中使用类型“bool”不安全
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(334): warning C4804: “~”: 在操作中使用类型“bool”不安全
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(366): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(367): warning C4305: “初始化”: 从“double”到“float”截断
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(368): warning C4305: “初始化”: 从“double”到“float”截断
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(369): warning C4305: “初始化”: 从“double”到“float”截断
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(376): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(380): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(431): warning C4018: “<”: 有符号/无符号不匹配
+g:\software\visual studio2015\vc\include\tuple(164): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+  g:\software\visual studio2015\vc\include\tuple(469): note: 参见对正在编译的函数 模板 实例化“std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)”的引用
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  g:\software\visual studio2015\vc\include\tuple(468): note: 参见对正在编译的函数 模板 实例化“std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)”的引用
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(274): note: 参见对正在编译的函数 模板 实例化“std::tuple<float,float,MST>::tuple<int,int,MST,0>(_This2 &&,int &&,MST &&)”的引用
+          with
+          [
+              _This2=int
+          ]
+  g:\software\visual studio2015\projects\c++\校庆论文\校庆论文\clocktree.cpp(274): note: 参见对正在编译的函数 模板 实例化“std::tuple<float,float,MST>::tuple<int,int,MST,0>(_This2 &&,int &&,MST &&)”的引用
+          with
+          [
+              _This2=int
+          ]
+  校庆论文.vcxproj -> G:\software\Visual Studio2015\projects\C++\校庆论文\Debug\校庆论文.exe
+  校庆论文.vcxproj -> G:\software\Visual Studio2015\projects\C++\校庆论文\Debug\校庆论文.pdb (Full PDB)
